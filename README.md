@@ -8,7 +8,6 @@
 
 > O nosso objetivo é consolidar conceitos de HTML e CSS e de, por meio disso, ter a capacidade de desenvolver sites estáticos simples.
 
----
 
 ### Conteúdo programático
 
