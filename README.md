@@ -20,4 +20,4 @@
 
 ### Material de apoio
 > O principal material de apoio será o slide. Ao final dele, é possível encontrar as referências utilizadas para a construção da aula e também referências de assuntos extras considerados importantes.
-   Link: [Slide](https://docs.google.com/presentation/d/1UMJJ4_Uh-Np8DO-uQNYdQG5oBhXR9YxT/edit?usp=sharing&ouid=111531702955710789607&rtpof=true&sd=true) 
+-  Link: [Slide](https://docs.google.com/presentation/d/1UMJJ4_Uh-Np8DO-uQNYdQG5oBhXR9YxT/edit?usp=sharing&ouid=111531702955710789607&rtpof=true&sd=true) 
