@@ -11,3 +11,5 @@
 
 ### Conteúdo programático
 
+> Ao longo das aulas, os seguintes assuntos serão abordados:
+
