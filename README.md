@@ -22,7 +22,7 @@
 -  Link: [Slide](https://docs.google.com/presentation/d/1UMJJ4_Uh-Np8DO-uQNYdQG5oBhXR9YxT/edit?usp=sharing&ouid=111531702955710789607&rtpof=true&sd=true) 
 
 
-### Material de apoio
+### Professora
 > O material de apoio e aula foram carinhosamente pensados por Geovanna Domingos. Para tirar dúvidas e manter um contato, podem fazer isso pelos seguintes canais:
 -  Link: [LinkedIn](https://www.linkedin.com/in/geovanna-domingos-b31b79190)
 -  Link: [GitHub](https://github.com/geovannaadomingos)
