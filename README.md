@@ -10,7 +10,6 @@
 
 
 ### Conteúdo programático
-
 > Ao longo das aulas, os seguintes assuntos serão abordados:
 - Introdução à web
 - Diferenciação entre HTML, CSS e JavaScript
@@ -21,3 +20,10 @@
 ### Material de apoio
 > O principal material de apoio será o slide. Ao final dele, é possível encontrar as referências utilizadas para a construção da aula e também referências de assuntos extras considerados importantes.
 -  Link: [Slide](https://docs.google.com/presentation/d/1UMJJ4_Uh-Np8DO-uQNYdQG5oBhXR9YxT/edit?usp=sharing&ouid=111531702955710789607&rtpof=true&sd=true) 
+
+
+### Material de apoio
+> O material de apoio e aula foram carinhosamente pensados por Geovanna Domingos. Para tirar dúvidas e manter um contato, podem fazer isso pelos seguintes canais:
+-  Link: [LinkedIn](https://www.linkedin.com/in/geovanna-domingos-b31b79190)
+-  Link: [GitHub](https://github.com/geovannaadomingos)
+-  Link: [Instagram](https://www.instagram.com/geovannaadomingos/)
