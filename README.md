@@ -41,7 +41,7 @@
 
 ### Professora
   
-> O material de apoio e aula foram carinhosamente pensados por Geovanna Domingos. Para tirar dúvidas e manter um contato, podem fazer isso pelos seguintes canais:
+> O material de apoio e aula foram carinhosamente pensados por Geovanna Domingos. Para tirar dúvidas e manter um contato, podem acompanhar os seguintes canais:
 -  Link: [LinkedIn](https://www.linkedin.com/in/geovanna-domingos-b31b79190)
 -  Link: [GitHub](https://github.com/geovannaadomingos)
 -  Link: [Instagram](https://www.instagram.com/geovannaadomingos/)
