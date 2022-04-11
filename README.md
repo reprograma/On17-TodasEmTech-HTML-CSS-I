@@ -32,7 +32,7 @@
 
 > Bônus: caso sintam-se confortáveis, apliquem propriedades do CSS que não foram vistas em aula mas que vocês consideram interessantes. Exemplos: flex-wrap, flex-direction, position
 
-> Orientações para a subida entrega da atividade:
+> Orientações para a subida e entrega da atividade:
 - Forkem o [repositório](https://github.com/reprograma/On17-TodasEmTech-HTML-CSS-I) e clonem na máquina de você; 
 - Criem uma branch chamada projeto_nome-sobrenome, onde nome e sobrenome devem ser os de vocês;
 - Já na branch, criem a pasta de vocês chamando-a de nome-sobrenome, assim como eu fiz em aula (a pastinha deve ter a pasta de imagens, o arquivo html e o css);
