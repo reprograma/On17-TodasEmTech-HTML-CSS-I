@@ -35,7 +35,7 @@
 > Orientações para a subida entrega da atividade:
 - Forkem o [repositório](https://github.com/reprograma/On17-TodasEmTech-HTML-CSS-I) e clonem na máquina de você; 
 - Criem uma branch chamada projeto_nome-sobrenome, onde nome e sobrenome devem ser os de vocês;
-- Já na branch, criem a pasta de vocês chamando-a de nome-sobrenome, assim como eu fiz em aula (a pastinha deve ter a pasta de imagens, o arquilo html e o css);
+- Já na branch, criem a pasta de vocês chamando-a de nome-sobrenome, assim como eu fiz em aula (a pastinha deve ter a pasta de imagens, o arquivo html e o css);
 - Deem add, commit e push para o repositório remoto de vocês; 
 - Abram uma PR da branch de vocês para a master, sem fazer merge; 
 - Coloquem o link da PR na atividade do [classroom](https://classroom.google.com/c/NDgwNzU0MDE0NTMz/a/NDk5NTE4MDQxOTQ3/details) e entreguem.
