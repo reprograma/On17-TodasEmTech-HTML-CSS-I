@@ -102,3 +102,8 @@
 .second-section p {
     text-align: center;
 }
+
+.footer ul {
+    list-style: none;
+    display: contents;
+}
