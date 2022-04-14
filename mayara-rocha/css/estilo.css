@@ -3,6 +3,7 @@
   padding:0;
   box-sizing: border-box;  
   font-family: 'Roboto', sans-serif;
+
   
 }
 body {
@@ -240,6 +241,8 @@ body {
   display:inline-block;
   background:rgb(130,130,130);
 }
+
+ 
 .player-control-progress-2{
   position: absolute;
   left: 0;
