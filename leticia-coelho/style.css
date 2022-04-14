@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #1EABD8;
+    height: 50vh;
+    
+    
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo{
+    height: 290px;
+    align-items: center;
+}
+
+nav, .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 30%;
+    list-style: none;
+    
+}
+
+.itens-menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
