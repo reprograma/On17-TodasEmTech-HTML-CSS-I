@@ -93,6 +93,12 @@
       padding: 50px;
   }
 
-  .proj-cc {
-      display: flex;
-  }
+  .second-section ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section p {
+    text-align: center;
+}
