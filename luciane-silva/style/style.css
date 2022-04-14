@@ -1,0 +1,204 @@
+:root {
+    --black: #141414;
+    --pink:#d73670;
+    --grey: #AAA;
+    --white: #FFF;
+}
+
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*base*/
+body {
+    background: var(--black);
+    font-family: 'Arial', Times, serif;
+    color: var(--white)
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--pink);
+    font-family: 'Arial Black', Times, serif;
+    font-size: 40px;
+}
+
+header nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--grey);
+}
+
+header nav a:hover {
+    color: var(--white)
+}
+
+/* menu lista*/
+.lista-menu{
+list-style-type: none;
+}
+
+.item-lista{
+    float: left;
+}
+
+/*livro principal*/
+.livro-principal {
+    font-size: 16px;
+    background: url('../img/livro.jpeg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.livro-principal .titulo {
+    margin-top: 15%;
+    font-size: 30px;
+    font-family: 'Roboto', Serif;
+}
+
+.livro-principal .descricao {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.livro-principal .botao {
+    background-color: rgba(0, 0, 0, .50);
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor:pointer;
+    border: none;
+    transition: .3s ease all;
+}
+
+ .livro-principal .botao i {
+    margin-right: 5px;
+}
+
+.livro-principal .botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.livro-principal .container {
+    width: 70%;
+}
+
+
+h5 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.carrossel{
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.mais-lidos .titulo2{ 
+    font-size: 30px;
+    font-family: 'Roboto', Serif;
+
+}
+
+.carrossel-item .box-livro {
+    width: 130px;
+    margin-left: 20px;
+   
+}
+
+.carrossel-item :hover{
+    transform: scale(1.1);
+}
+
+.livro-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.livro-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.livro-principal .container{
+    width: 70%;
+}
+
+.box-livro{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    margin-top: 280px; 
+    color: white;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+.footer__div-p-a{
+    color: rgb(164, 93, 206);
+}
+.footer__div-p-a:hover {
+    font-weight: bold;
+    font-style: italic;
+}
