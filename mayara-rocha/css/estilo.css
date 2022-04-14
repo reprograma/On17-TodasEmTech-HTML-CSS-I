@@ -1,0 +1,288 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;  
+  font-family: 'Roboto', sans-serif;
+  
+}
+body {
+  height: 100%;
+}
+
+.sidebar {
+  float:left;
+  width:200px;
+  padding: 10px 10px;
+  height: 100%;
+  overflow-y: auto;
+  background-color:black;
+  overflow-x:hidden;
+}
+
+.sidebar-wraper{
+  padding-bottom:200px;
+  background-color:black;
+
+
+  }
+
+  .sidebar-menu{
+    margin: 20px 0;
+    color:rgb(190,190,190);
+  }
+
+  .sidebar-logo img{
+    max-width: 140px;
+    width: 100%;
+  }
+  .sidebar-menu a{
+    color:rgb(190,190,190);
+    text-decoration:none;
+    display: block;
+    padding: 10px 0;
+  }
+  .sidebar-menu svg{
+    margin: 0 20px;
+  }
+
+.sidebar-menu-selecionado{
+    color:white;
+    background-color:rgb(80,80,80); 
+    border-radius: 3px; 
+  }
+
+  .sidebar-menu-item{
+    margin-top: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+
+
+  .sidebar-menu-item {
+    display:flex;
+    align-items:center;
+        
+  }
+
+  .sidebar-menu-item spam {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size:13px;
+    padding: 0 10px;
+  }
+
+  .playlist {
+    margin-top:70px;
+  }
+
+  .sidebar-playlist {
+    padding: 20px 0;
+    border-top: 1px solid rgb(40,40,40);
+ 
+  }
+
+  .sidebar-playlist a {
+    margin: 10px 0;
+    display: block;
+    color: rgb(190,190,190);
+    text-decoration: none;
+  }
+
+  .sidebar-playlist a:hover{
+    color:white;
+  }
+
+  /*Parte principal do app*/
+
+  .main{
+    width: calc(100% - 200px);
+    background-color: rgb(30,30,30);
+    height: 100%;
+    
+    float: left;
+    padding:15px 50px;
+    overflow:auto;
+  }
+
+  .main-col img {
+    max-width: 150px ;
+  }
+.main-col h3 {
+  font-size:15px;
+  color:white;
+}
+  .main-col p {
+    font-size:13px;
+    color:white;
+  }
+
+  .main-row{
+    display: flex;
+    
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px; 
+
+  }
+  .main-row-podcast{
+    display: flex;
+   
+  
+    margin-top: 20px;
+    margin-bottom: 40px; 
+  }
+  .main-row-podcast img {
+    max-width:155px;
+  }
+.main-wraper {
+  padding-bottom: 102px;
+   }
+.main-row-title{
+  width: 100%;
+}
+.main-row-title h2 {
+  color: white;
+}
+.main-row-sub-title {
+  color: rgb(186, 175, 175);
+}
+.main-col{
+  cursor:pointer;
+  
+  margin-right: 5%;
+  margin-top:20px;
+
+  background-color: #282828;
+  border-radius: 8px;
+
+  padding:10px;
+
+  text-align: center;
+
+}
+
+.main-row :hover{
+  background-color: #575555;
+}
+.main-row-podcast :hover{
+  background-color: #575555;
+}
+
+.player {
+  width: 100%;
+  padding: 20px;
+  height:130px;
+  position:fixed;
+  left: 0;
+  bottom:0;
+  display: flex;
+  background-color: rgb(60,60,60)
+}
+
+.player-artist {
+
+  display: flex;
+}
+.player-artist a{
+ font-size:14px;
+ color:white;
+ margin-left: 10px;
+ text-decoration: none;
+}
+
+.player-artist a:hover {
+  text-decoration: underline;
+}
+
+.player-artist div {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-artist img {
+
+  display:inline-block;
+  vertical-align: middle;
+
+}
+
+.player-artist h3 {
+  display: inline-block;
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.player-artist h3 > spam{
+  color:rgb(200,200,200)
+}
+.player-control {
+  width:70%;
+  text-align: center;
+}
+.player-control-buttons a{
+  color:white;
+  margin:8px 15px;
+  font-size: 25px;
+}
+.button-play{
+  font-size:40px;
+}
+.player-control-progress {
+  width:100%;
+  max-width:600px;
+  height: 7px;
+  margin-top: 20px;
+  position:relative;
+  border-radius: 8px;
+  display:inline-block;
+  background:rgb(130,130,130);
+}
+.player-control-progress-2{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:0;
+  height:7px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+@media screen and (max-width:500px){
+  .main{width: 100%;}
+  .sidebar{
+    display:none;
+  }
+  .main-col{
+    width:100%;
+    margin-right: 2%;
+  }
+}
+
+
+.fa-play-circle {
+  font-size: 40px;
+}
+
+#volume{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #1DB954;
+    outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .1s;
+}
+
+.volume{
+  height: 20px;
+  margin: auto 0;
+  color:#575555;
+}
+.fa-pause-circle{
+  font-size: 40px;
+}

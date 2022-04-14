@@ -1,92 +1,301 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML e CSS</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@440&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="icon" href="./img/spotify-icon-0.png">
+  <title>Spotify</title>
 </head>
-
 <body>
-
-    <header>
-        <div class="header__div-nav">
-            <img src="./imagens/reprograma-logo.png" alt="imagem logo da reprograma" class="header__img" />
-            <nav class="header__nav">
-                <a href="#" class="header__nav-a">Inicio</a>
-                <a href="#conteudos" class="header__nav-a">Conteúdos</a>
-                <a href="#professora" class="header__nav-a">Professora</a>
-                <a href="https://reprograma.com.br/" target="_blank" class="header__nav-a">Reprograma</a>
-            </nav>
+    <div class="sidebar">
+      <div class="sidebar-wraper">
+       
+        <div class="sidebar-logo">
+          <img src="img/logo.png">
         </div>
 
-        <div class="header__div">
-            <h1 class="header__h1">
-                Bora aprender um pouco mais sobre HTML e CSS?!
-            </h1>
-            <p class="header__p">Esse é um site construído durante a aula da semana três da turma On17-TodasEmTech.</p>
+        <div class="sidebar-menu">
+          <a href="#"class="sidebar-menu-selecionado"><i class="fa fa-home"></i>Início</a>
+          <a href="#"><i class="fa fa-search"></i>Buscar</a>
+          <a href="#"><i class="fa fa-database"></i>Biblioteca</a>
         </div>
-    </header>
 
-    <main>
-        <div>
-            <h2 class="main__div-h2" id="conteudos">Conteúdos da aula</h2>
-            <div class="main__div-div">
-                <section class="main__section">
-                    <h3 class="main__section-h3">Sobre o HTML</h3>
-                
-                    <ul class="main__section-ul">
-                        <p class="main__section-ul-p">Essas são as principais tags do HTML:</p>
-                        <li class="main__section-ul-li">tag a</li>
-                        <li class="main__section-ul-li">tag img</li>
-                        <li class="main__section-ul-li">tag p</li>
-                    </ul>
-                </section>
-                
-                <section class="main__section">
-                    <h3 class="main__section-h3">Sobre o CSS</h3>
-                
-                    <ul class="main__section-ul">
-                        <p class="main__section-ul-p">Essas são as principais propriedades do CSS:</p>
-                        <li class="main__section-ul-li">color</li>
-                        <li class="main__section-ul-li">background-color</li>
-                        <li class="main__section-ul-li">width</li>
-                        <li class="main__section-ul-li">display</li>
-                    </ul>
-                </section>
+            <div class="sidebar-menu playlist">
+             
+              <div class="sidebar-menu-item">
+                <img src="img/criarplaylist.png">
+                <spam>Criar Playlist</spam>
+
+              </div>
+              <div class="sidebar-menu-item">
+                <img src="img/musicascrutidas.png">
+                <spam>Músicas Curtidas</spam>
+
+              </div>
+              <div class="sidebar-menu-item">
+                <img src="img/seusepisodios.png">
+                <spam>Seus episódios</spam>
+
+              </div>
             </div>
-            
-        </div>
 
-        <div class="main__div">
-            <h2 class="main__div-h2" id="professora">Professora</h2>
-            <p class="main__div-p">A aula foi ministrada por
-                <a href="https://github.com/geovannaadomingos" target="_blank" class="main__div-p-a">Geovanna Domingos</a>
-                , desenvolvedora recifense e ex-aluna reprograma.
-            </p>
-            <p class="main__div-p">Veja, a seguir, um depoimento dela em seu
-                <a href="https://www.linkedin.com/in/geovanna-domingos-b31b79190" target="_blank" class="main__div-p-a">LinkedIn</a>:
-            </p>
-            <div class="main__div-iframe">
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6854932840740659200" height="1000" width="800"  frameborder="0" allowfullscreen="" title="Publicação incorporada"></iframe>
+            <div class="sidebar-playlist">
+              <a href="">Músicas Curtidas</a>
+              <a href="">Sua Máquina do Tempo </a>
+              <a href="">Minha Plaulist #2</a>
+              <a href="">Nostalgia Pop Brasil </a>
+              <a href="">This is Justin Bieber</a>
+              <a href="">This is Pablo Vittar</a>
+              <a href="">This is RBD</a>
             </div>
-        </div>
-    </main>
 
-    <footer>
-        <div class="footer__div">
-            <p class="footer__div-p">Desenvolvido pela turma On-17-TodasEmTech, da
-                <a href="https://reprograma.com.br/" target="_blank" class="footer__div-p-a">{reprograma}</a>
-            </p>
-        </div>
-    </footer>
+          <div class="sidebar-playlist">
+              <a href="">This is  Ariana  Grande</a>
+              <a href="">This is Lady Gaga</a>
+              <a href="">This is Miley Cyrus</a>
+              <a href="">This is Rihanna</a>
+              <a href="">This is Beyoncé</a>
+              <a href="">This is Whitney Houston</a>
+              <a href="">This is Amy Winehouse</a>
+              <a href="">Hot Hits Brasil</a>
+              <a href="">This is Anitta</a>
+            </div>
+
+            <div class="sidebar-playlist">
+              <a href="">Black 00's</a>
+              <a href="">Mix anos 2010</a>
+              <a href="">Músicas para Dormir</a>
+              <a href="">Charlie Brown Jr.</a>
+              <a href="">AC/DC</a>
+              <a href="">R.E.M</a>
+              <a href="">Rock Classics</a>
+            </div>
+
+            <div class="sidebar-playlist">
+              <a href="">Mix Rock anos 70s 80s 90s</a>
+              <a href="">Podcast FalaDev</a>
+              <a href="">Best of Rock 200</a>
+              <a href="">This is Lil Nas X </a>
+              <a href="">As 100 Mais  Tocadas</a>
+              <a href="">Top Hits 2000</a>
+              <a href="">All Out 90s</a>
+              <a href="">Hinos Pop</a>
+              <a href=""> Pop Brasil</a>
+              <a href="">Top Hits 2021</a>
+            </div>
+           
+      </div>
+    </div>
+          <div class="main">
+            <div class="main-wraper">
+              <div class="main-row-title"><h2>Seus programas</h2></div>
+             
+              <div class="main-row-podcast">
+               
+
+                  <div class="main-col">
+                    <img src="img/podcastalura.jpeg">
+                    <h3>Hipsters Ponto Tech</h3>
+                    <p>Alura</p>
+                  </div>
+                  <div class="main-col">
+                    <img src="img/podcastgugacast.jpeg">
+                    <h3>Gugacast</h3>
+                    <p>Guga Mafra </p>
+                  </div>
+                  <div class="main-col">
+                    <img src="img/podcastdev.jpeg">
+                    <h3>DEVNAESTRADA</h3>
+                    <p>devenaestrada.com.br</p>
+                  </div>
+                  <div class="main-col">
+                    <img src="img/podcastnerdcast.jpeg">
+                    <h3>NerdCast</h3>
+                    <p>Jovem Nerd</p>
+                  </div>
+                  <div class="main-col">
+                    <img src="img/podcastnerdshow.jpeg">
+                    <h3>Nerd Show Cast</h3>
+                    <p>NerdShow </p>
+                  </div>
+                
+                </div>
+                <div class="main-row-title"><h2>O melhor de cada artista</h2></div>
+                <div class="main-row-sub-title"><p> Todos os maiores sucessos de um artista em um só lugar.</p> </div> 
+                <div class="main-row">
+                 
+                      <div class="main-col">
+                      <img src="img/thisispablo.jpeg">
+                      <h3>Pablo Vittar</h3>
+                      <p> Todos os maiores Hits </p>
+                    </div>
+                    <div class="main-col">
+                      <img src="img/thisislady.jpeg">
+                      <h3>Lady Gaga</h3>
+                      <p>Todos os maiores Hits </p>
+                    </div>
+                    <div class="main-col">
+                      <img src="img/thisisjb.jpeg">
+                      <h3>Justin Bieber</h3>
+                      <p>Todos os maiores Hits</p>
+                    </div>
+                    <div class="main-col">
+                      <img src="img/thisisariana.jpeg">
+                      <h3>Ariana Grande</h3>
+                      <p>Todos os maiores Hits</p>
+                    </div>
+                    <div class="main-col">
+                      <img src="img/thisisavril.jpg">
+                      <h3>Avril Lavigne</h3>
+                      <p>Todos os maiores Hits</p>
+                    </div>
+                                                       
+                  </div>
+                  <div class="main-row-title"><h2>Tocados Recentemente</h2></div>
+                  <div class="main-row">
+                   
+    
+                      <div class="main-col">
+                        <img src="img/musicascurtidas.png">
+                        <h3>As suas Músicas Curtidas </h3>
+                        <p>De Spotify </p>
+                      </div>
+                      <div class="main-col">
+                        <img src="img/allouts90.jpeg">
+                        <h3>As melhores dos anos 90</h3>
+                        <p>De Spotify</p>
+                      </div>
+                      <div class="main-col">
+                        <img src="img/musicasparadormir.jpeg">
+                        <h3>Músicas para dormir</h3>
+                        <p>De Spotify</p>
+                      </div>
+                      <div class="main-col">
+                        <img src="img/playlist.jpeg">
+                        <h3>Billboard Hot 100 of 2010</h3>
+                        <p>De Spotify </p>
+                      </div>
+                      <div class="main-col">
+                        <img src="img/pagodasantigas.jpeg">
+                        <h3>Pagode das Antigas</h3>
+                        <p>De Spotify</p>
+                      </div>
+                                        
+                   
+                    </div>
+
+                    <div class="main-row-title"><h2>Mais do que você curte</h2></div>
+                     <div class="main-row-sub-title"><p> Um pouco de tudo mais sempre músicas que você adora.</p> </div> 
+                    <div class="main-row">
+                           
+                        <div class="main-col">
+                          <img src="img/mixemo.jpeg">
+                          <h3>Mix Melancólico</h3>
+                          <p>De Spotify </p>
+                        </div>
+                        <div class="main-col">
+                          <img src="img/mixhpop.jpeg">
+                          <h3>Hinos Pop</h3>
+                          <p>De Spotify</p>
+                        </div>
+                        <div class="main-col">
+                          <img src="img/mixpop.jpeg">
+                          <h3>The Ultimate Hit Mix</h3>
+                          <p>De Spotify</p>
+                        </div>
+                        <div class="main-col">
+                          <img src="img/mixindie.jpeg">
+                          <h3>Best of Rock 2013</h3>
+                          <p>De Spotify </p>
+                        </div>
+                        <div class="main-col">
+                          <img src="img/mixrock.jpeg">
+                          <h3>Best of Rock 2002</h3>
+                          <p>De Spotify</p>
+                        </div>
+                       
+                  
+                  </div>
+                
+                  <div class="main-row-title"><h2>Top das paradas</h2></div>
+                  <div class="main-row">
+                   
+    
+                      <div class="main-col">
+                        <img src="img/top50-brazil.jpg">
+                        <h3>As 50 mais tocadas</h3>
+                        <p>De Spotify </p>
+                      </div>
+                      <div class="main-col">
+                        <img src="img/top100-2021.jpg">
+                        <h3>As 100 mais tocadas</h3>
+                        <p>De Spotify</p>
+                      </div>
+                      <div class="main-col">
+                        <img src="img/tophits2000.jpeg">
+                        <h3>Top Hits de 2000</h3>
+                        <p>De Spotify</p>
+                      </div>
+                      <div class="main-col">
+                        <img src="img/tophitsbrasil.jpeg">
+                        <h3>Top Hits Brasil</h3>
+                        <p>De Spotify </p>
+                      </div>
+                      <div class="main-col">
+                        <img src="img/tophits2021.jpeg">
+                        <h3>Top Hits de 2021</h3>
+                        <p>De Spotify</p>
+                      </div>
+                     
+                
+                </div>
+                   
+                    </div>
+                   
+
+
+            </div>
+
+          </div>
+
+
+            <div class="player">
+              <div class="player-artist">
+                <img src="img/jbmusic.jpeg" />
+                <div><a href="#"> Attention</a><a href="#">Justin Bieber & Omah Lay </a></div>
+                
+              </div>
+                <div class="player-control">
+                  <div class="player-control-buttons">
+                    <a id="randomBtn" href="#"><i class="fas fa-random" ></i></a>
+                    <a href=""><i class="fas fa-backward"></i></a>
+                    <a id="pauseBtn" href="#"><i class="fas fa-pause-circle" ></i></a>
+                    <a id="playBtn" href="#"><i class="fas fa-play-circle" ></i></a>
+                    <a href=""><i class="fas fa-forward"></i></a>
+                  </div>
+
+                  <div class="player-control-progress">
+                      <div style="width: 70% ;" class="player-control-progress-2"></div>
+                  </div>
+                  
+                </div>
+                <div class="volume"><input type="range"  id="volume" min="0" max="10" step="0.01" value="0.5"/></div>
+               
+
+                
+            </div>
+
+            <audio controls="controls" autoplay="true" id="audio" src="./assents/music.mp3"></audio>
+
+             
+
+             
+    <script src="js/player.js"></script>
+    <script src="js/all.min.js"></script>
 </body>
-
 </html>
