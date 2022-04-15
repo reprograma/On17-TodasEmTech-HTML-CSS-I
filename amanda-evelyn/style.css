@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    border: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: block;
+    background: linear-gradient(to top, transparent 0%, floralwhite 90%),url(./IMG/1886_iva\(1\).jpg) no-repeat center center;
+    background-size: cover
+}
+
+.header__div-nav{
+background-color: floralwhite;
+width: 100%;
+top: 0;
+position: fixed;
+height: 90px;
+display: flex;
+align-items: center;
+padding: 20px;
+padding-left: 150px;
+padding-right: 150px;
+}
+
+.header__nav-logo{
+font-family: 'Updock', cursive;
+font-size: 65px;
+font-weight: bold;
+color: mediumvioletred;
+margin-left: -80px;
+margin-right: 230px;
+}
+
+.header__nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav-a{
+    color: deeppink;
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.header__nav-a:hover {
+    color: mediumvioletred;
+    font-weight: bold;
+}
+
+.header__div{
+width: 100%;
+margin-top: 90px;
+padding: 200px;
+}
+
+.header__h1{
+text-align: left;
+font-size: 50px;
+font-weight: bold;
+color: mediumvioletred;
+padding-right: 5px;
+}
+
+.header__p{
+text-align: left;
+font-size: 15px;
+color: mediumvioletred;
+padding: 5px;
+}
+
+.header__a{
+font-size: 10px;
+font-weight: bold;
+text-transform: uppercase;
+color: mediumvioletred;
+background-color: floralwhite;
+margin-top: 10px;
+padding: 5px 15px;
+border-radius: 20px;
+border-color: floralwhite;
+justify-content: center;
+}
+
+main{
+    width: 100%;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.main__div-h2{
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    display: block;
+    font-size: 35px;
+    color: mediumvioletred;
+}
+
+.main__div-div{
+background-color: floralwhite;
+border-radius: 10%;
+display: flex;
+}
+
+.main__div-img{
+width: 250px;
+border-radius: 70%;
+margin-bottom: 20px;
+}
+
+.main__section-p{
+color: mediumvioletred;
+margin: 15px;
+font-size: 15px;
+}
+
+.main__section-h3{
+font-size: 25px;
+color: deeppink;
+margin-bottom: 10px;
+}
+
+.main__section-ul{
+margin-top: 5px;
+font-size: 18px;
+color: hotpink;
+
+
+}
+
+.main__div-lista{
+background-color: floralwhite;
+padding: 50px;
+border-radius: 30%;
+margin: 20px 20px;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.main__div-links{
+margin-top: 80px;
+background-color: floralwhite;
+padding: 15px 15px;
+border-radius: 45%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main__section-links{
+display: flex;
+width: 130px;
+padding: 20px;
+margin-left: 20px;
+margin-right: 20px;
+text-align: center;
+justify-content: space-around;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    justify-content: center;
+    }
+
+.main__section-links-p{
+color: deeppink;
+font-size: 20px;
+margin-top: 15px;
+margin-left: 15px;
+align-items: center;
+}
+
+.main__section-links-p:hover{
+color: mediumvioletred;
+font-weight: bold;
+
+}
+
+footer{
+    margin-top: 100px; 
+    color: hotpink;
+    background-color: floralwhite;
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+.footer__div-p-a{
+    color: deeppink;
+}
+.footer__div-p-a:hover {
+    color: mediumvioletred;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
