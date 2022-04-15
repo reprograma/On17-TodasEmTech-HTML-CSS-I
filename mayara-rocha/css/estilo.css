@@ -79,6 +79,9 @@ body {
   .sidebar-playlist {
     padding: 20px 0;
     border-top: 1px solid rgb(40,40,40);
+    font-size: 13px;
+    font-weight:bold;
+
  
   }
 
@@ -90,7 +93,7 @@ body {
   }
 
   .sidebar-playlist a:hover{
-    color:white;
+    color:rgb(10, 202, 39);
   }
 
   /*Parte principal do app*/
@@ -135,9 +138,7 @@ body {
   .main-row-podcast img {
     max-width:155px;
   }
-.main-wraper {
-  padding-bottom: 102px;
-   }
+
 .main-row-title{
   width: 100%;
 }
@@ -156,7 +157,7 @@ body {
   background-color: #282828;
   border-radius: 8px;
 
-  padding:10px;
+  padding:15px;
 
   text-align: center;
 
@@ -288,4 +289,22 @@ body {
 }
 .fa-pause-circle{
   font-size: 40px;
+}
+
+.direitos-autorais{
+position:fixed;
+top: 20px;
+right: 20px;
+background: #1DB954;
+padding: 10px;
+border-radius:5px;
+}
+
+.direitos-autorais a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.direitos-autorais:hover{
+  background-color: #7e459b;
 }
