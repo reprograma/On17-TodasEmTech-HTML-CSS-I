@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+html {
+  background-color: #f2ede4;
+}
+#header {
+  padding: 10px 25px;  
+}
+
+.header-container {
+  display: flex;
+  margin: 20px 0 0 800px;
+  
+}
+
+.header-text {
+  padding: 0 15px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #46154C;
+}
+
+.line {
+  margin: 30px 0;
+  border: 0;
+  border-top: 1.5px solid #46154C;
+}
+
+.image-profile{
+  width: 400px;
+  height: 100%;  
+}
