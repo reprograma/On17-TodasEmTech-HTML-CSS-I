@@ -296,7 +296,7 @@ position:fixed;
 top: 20px;
 right: 20px;
 background: #1DB954;
-padding: 10px;
+padding: 12px;
 border-radius:5px;
 }
 
@@ -304,6 +304,9 @@ border-radius:5px;
   color:white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 23px;
+  display: flex;
+  margin-left: 4px;
 }
 .direitos-autorais:hover{
   background-color: #7e459b;
