@@ -1,0 +1,142 @@
+body {
+    font-size: 12px;
+}
+.caixa-banner {
+    background-image: url(../lorenna-resende/png_20220415_152054_0000.png);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.titulo1{
+    font-size: 2rem;
+    text-shadow: 2px 2px white;
+}
+
+.caixa-sobre{
+    background-color: #3F2526;
+}
+.subtitul1{
+    font-size: 28px;
+    text-shadow: 2px 2px white;
+}
+
+.link-sobre{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+
+.link-café{ 
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: bisque;
+    font-weight: bold;
+    background-color: rgb(22, 7, 7);
+    padding: 8px 20px;
+    border-radius: 20px;
+
+}
+
+.caixa-sobre{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.lado2{
+    width: 35%;
+    background-color: #3F2526;
+}
+
+h3{
+    font-size: 45px;
+}
+
+
+ul{
+    line-height: 2.0;
+    font-size: 20px;
+
+}
+
+.titulo-sobre{
+    margin-left: 10px;
+    font-size: 35px;
+    color: rgb(43, 7, 16);
+}
+
+.caixa-links{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}   
+
+.links{
+    background-color: #3F2526;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+ 
+@media(max-width: 710px){
+    .caixa-sobre{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lado1{
+        width: 80%;
+        text-align: justify;
+    }
+
+    .lado2{
+        width: 80%;
+    }
+
+    .titulo-sobre{
+        margin: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .links{
+        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+        font-size: 20px;
+    }
+
+    .icone{
+        margin-top: 40px;
+    }
+
+}
