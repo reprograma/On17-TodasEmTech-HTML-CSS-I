@@ -107,3 +107,17 @@
     list-style: none;
     display: contents;
 }
+
+footer {
+    background: lemonchiffon;
+    height: auto;
+    width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 40px;
+    color: rgba(0,0,0,0);
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+}
