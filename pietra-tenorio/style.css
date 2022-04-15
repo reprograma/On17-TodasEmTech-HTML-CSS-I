@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+body {
+    margin: 20px;
+    padding: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: #080808;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ee774000;
+    background-image: url(./img/backpietra1\ \(1336\ px\ ×\ 768\ px\)\ \(2\).png)}
+
+    h1 {
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+    }
+    
+    h2{
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    h4{
+        font-size: 15px;
+        color: rgb(250, 125, 87);
+       letter-spacing: 2px;
+    }
+
+    .social-media{
+        margin-top: 1rem;
+        display: flex;
+        }
+        
+        .social-media a{
+            text-decoration: none;
+            color: #000000;
+            padding: 1rem 4rem;
+            border: 1px solid #070707;
+            min-width: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .5s ease-in-out;
+        }
+        
+        a:hover {
+            background-color: rgb(133, 150, 93);
+        
+        }
+        
+        .checkbox-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        .checkbox{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 9999;
+        transition: 4000ms ease-in-out 0s;
+        
+        }
+        
+        .checkbox .trace{
+            width: 50px;
+            height: 2px;
+            background-color: #000000;
+            position: absolute;
+            border-radius: 4px;
+            transition: 0.5s ease-in-out;
+        }
+
+        .header_div-nav{
+            margin: auto;
+            padding: 40px;
+        }
+
+        .footer_div{
+            width: 60%;
+            height: 100px;
+            background-color: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000000;
+            border-top: 1px solid #333;
+            bottom: 0;
+            left: 0;
+            height: 40px;
+            position: fixed;
+            width: 100%;
+            
+        }
