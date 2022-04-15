@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Righteous&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+/*GLOBAIS*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    font-size: 48px;
+}
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+ a {
+     text-decoration: none;
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+}
+
+
+section {
+    max-width: 1080px;
+    margin: auto;
+ }
+/*BANNER*/ 
+
+
+.banner_conteudo {
+    background-image: url(../On17-TodasEmTech-HTML-CSS-I/IMG/banner1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+footer {
+    margin: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #cbc1c1
+}
