@@ -2,7 +2,7 @@ body {
     font-family: 'Oswald';
     margin: 0;
     padding: 0;
-    background-color:  #15161B;
+    background-color: #845555;
 }
 
 header{
@@ -83,11 +83,6 @@ header{
     margin-top: 20px;
     margin-left: 70px;
     border-radius: 5%;
-    filter: blur(2);
-}
-
-.image1 img:hover{
-   
 }
 
 .area-tittle a:hover{
@@ -119,7 +114,7 @@ header{
 }
 
 .card{
-    background-color: #596E8A;
+    background-color: #763632;
     width: 250px;
     height: 250px;
     margin-left: 30px;
@@ -141,14 +136,14 @@ header{
 .card img{
     width: 200px;
     border-radius: 10%;
-    
+    padding: 5px;
 }
 
 
 /* SEÇÃO DE IMAGENS */
 
 .section-3{
-    background-color: #763632;
+    background-color: #E1AAAA;
     height: auto;
     display: flex;
     justify-content: center;
@@ -165,7 +160,7 @@ header{
     color: #fff;
     font-size: 20px;
     font-weight: normal;
-    margin-top: -25px;
+    margin-top: -10px;
 }
 
 .area-tittle-2 a{
@@ -175,6 +170,13 @@ header{
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.area-tittle-2 a:hover{
+    background-color: #763632;
+    transition: .7s;
 }
 
 .image2 img{
@@ -182,6 +184,7 @@ header{
     height: auto;
     margin-top: 5px;
     margin-left: 100px;
+    border-radius: 5%;
 }
 
 /* AREA DO FORMULÁRIO */
@@ -229,6 +232,11 @@ input[type="submit"]{
     cursor: pointer;
 }
 
+input[type="submit"]:hover{
+    background-color: #763632;
+    transition: .7s;
+}
+
 footer{
     margin-top: 100px;
     flex-direction: column;
@@ -238,6 +246,7 @@ footer{
 .social {
     display: flex;
     justify-content: center;
+    flex-direction: inline;
 }
 
 
