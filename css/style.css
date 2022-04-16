@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Righteous&display=swap');
+
+*{
+  margin:0;
+  padding:0;  
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+section{
+  max-width: 1080px;
+  margin: auto;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  font-family: 'Righteous', cursive;
+  font-size: 72px;
+  letter-spacing: 0.5px;
+  margin: 65px 0 0 0;
+  top: 0;     
+}
+
+
+h2 {
+  color: #62386e;
+  font-size: 46px;
+  letter-spacing: 0.1rem;
+  display: flex;
+  justify-content: center;  
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+header{
+  position: relative;
+  top:0;
+  height: auto;
+  width:100%
+}
+
+.header-tittle{
+  padding: 20% 0 0 8%;
+  padding-bottom: 2%;
+  box-sizing: border-box;
+  
+}
+
+#nav-container{
+  width:100%;
+  height:100vh;
+  background-image: url(../IMG/banner1.png);
+  background-size: cover;
+  
+}
+  
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;  
+  background-color: #0005;
+  line-height: 50px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:rgb(15, 15, 15);
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 50px;
+}
+
+.titulo h1 p{
+  font-size: 46px;
+  color: #fff;
+}
+
+#historia {
+  margin-top: 3rem;
+}
+
+.historia_conteudo{
+  display: block; 
+
+}
+
+#poemas {
+  margin-top: 3rem;
+}
+
+
+#newsletter {
+  margin-top: 3rem;
+}
+
+.newsletter_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #62386e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  gap: 2rem;
+}
+
+.newsletter_tittle {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1.5rem;  
+}
+
+.newsletter_text {
+  font-size: 1.2rem;
+  color: rgb(211, 211, 211);
+  font-weight: 200;
+}
+
+.newsletter_form form {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.newsletter_form label{
+  width: 100%;
+}
+
+.newsletter_form input {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 1.5rem 1rem;
+  border: none;
+
+}
+
+.newsletter_form input::placeholder {
+  color:#cbc1c1;
+
+}
+
+.newsletter_form button[type='submit'] {
+  background-color:rgb(20, 20, 20);
+  color: #fff;
+  border: none;
+  font-size: 1.4rem;
+  padding: 0 2rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+footer {
+  margin: 5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #cbc1c1
+}
+
