@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&display=swap");
+
+:root {
+  --primary-color: #03001d;
+  --secondary-color: #ff0000;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-4 {
+  gap: 8px;
+}
+
+header {
+  background-color: var(--primary-color);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: var(--secondary-color);
+}
+
+header img {
+  max-height: 60px;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu-item {
+  color: var(--secondary-color);
+  margin: 1.5rem;
+}
+
+.navbar .menu-item:hover {
+  color: white;
+}
+
+.inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--primary-color);
+  height: 100vh;
+  color: var(--secondary-color);
+  padding: 80px 80px 0 40px;
+}
+
+.inicio .coluna-esquerda {
+  width: 55%;
+}
+
+.inicio .coluna-direita {
+  width: 25%;
+}
+
+.inicio .coluna-direita img {
+  max-width: 250px;
+}
+
+.inicio h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.inicio p {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 8px;
+}
+
+.sobre {
+  padding: 60px 0;
+  background: linear-gradient(#03001d,white);
+}
+
+.sobre,
+.contato {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.sobre h2,
+.servicos h2,
+.contato h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 40px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.sobre img {
+  max-width: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+}
+
+.sobre p {
+  font-size: 18px;
+  font-weight:;
+  width: 70%;
+  margin-left: 15%;
+  padding: 20px;
+}
+
+.servicos {
+  background:white;
+  color: var(--primary-color);
+  text-align: center;
+  padding: 60px 30px 50px 40px;
+}
+
+.servicos .servicos-galeria {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.servicos .services {
+  width: 40%;
+}
+
+.servicos ul {
+  text-align: left;
+  background-size: 35px;
+  padding: 3px 0 3px 50px;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.servicos li::before {
+  content: "★";
+  color: var(--secondary-color);
+  padding-right: 5px;
+}
+
+.services li {
+  padding: 3px 0;
+}
+
+.servicos .galeria {
+  width: 65%;
+}
+
+.servicos .galeria img {
+  max-height: 300px;
+  border-radius: 15px;
+  border: 2px solid;
+}
+
+.contato{
+  padding-bottom: 40px;
+  background:linear-gradient(white,#03001d);
+}
+
+.contato .colunas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 100px 0 90px;
+}
+
+.contato .texto {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.contato p {
+  margin: 20px 0 40px 0;
+}
+
+.contato .titulo {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.contato .colunas .coluna {
+  text-align: left;
+}
+
+.icones {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.icones .fas {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+  color: var(--secondary-color);
+}
+
+.icones .linhas {
+  display: flex;
+  align-items: center;
+}
+
+.contato form input,
+textarea {
+  border-collapse: separate;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 4px 0;
+  font-size: 15px;
+}
+
+.contato form button {
+  padding: 8px 32px;
+  font-size: 20px;
+  color: white;
+  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.contato form button:hover {
+  color: var(--secondary-color);
+  background: none;
+}
+
+footer {
+  background: var(--primary-color);
+  padding: 15px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+footer span a {
+  color: white;
+  background: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}

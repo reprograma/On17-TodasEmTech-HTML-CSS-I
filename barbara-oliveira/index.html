@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" type="imagex/png" href="./img/favicon.ico"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>JT - Marketing digital</title>
+</head>
+
+<body>
+  <header>
+    <a href="#inicio"><img src="./img/JT-Marketing-digital-logo.png"
+        alt="logo da jt - marketing digital: Mostra um retângulo com as bordas arredondadas e dento dele em vermelho contendo as letras j e t lado a lado. Em baixo, escrito em vermelho marketing digital." /></a>
+
+    <ul class="navbar">
+      <li><a href="#inicio" class="menu-item">Início</a></li>
+      <li><a href="#sobre" class="menu-item">Sobre</a></li>
+      <li><a href="#servicos" class="menu-item">Serviços</a></li>
+      <li><a href="#contato" class="menu-item">Contato</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="inicio" id="inicio">
+      <div class="coluna-esquerda">
+        <h1>Marketing Digital</h1>
+        <p>
+          Conjunto de atividades que a nossa empresa executa online com o objetivo de atrair novos negócios, criar relacionamentos e desenvolver uma identidade de marca com excelência.
+        </p>
+      </div>
+      <div class="coluna-direita">
+        <img src="img/JT-logo.png"
+          alt="logo da jt: Mostra um retângulo com as bordas arredondadas e dento dele em vermelho contendo as letras j e t lado a lado." />
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <h2>Sobre mim</h2>
+      <div>
+        <img src="img/profile-face.jpeg" alt="foto do fundador da jt marketing digital." />
+        <p>
+          Olá meu nome é Jorge Tinta.
+          Trabalho com publicidade desde de 2012 e em 2020  passei a estudar marketing digital.
+          Amo o que faço e estou sempre em busca de novos desafios, atuo na área de design gráfico com
+          criação de artes para redes socias, flyers, capas, e outros materiais necessários para as redes sociais!
+          Além do Marketing Digital trabalho também com edição de áudio e vídeo,
+          e como locutor publicitário.
+        </p>
+      </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+      <h2>Serviços</h2>
+      <div class="servicos-galeria">
+        <ul class="services">
+          <li>Edição de audio e vídeo</li>
+          <li>Designer gráfico</li>
+          <li>Locução publicitário</li>
+          <li>Projetos de comunicação visual</li>
+          <li>Photoshop</li>
+          <li>Canva</li>
+          <li>Proshow producer</li>
+          <li>Marketing, comunicação e publicidade</li>
+        </ul>
+
+        <div class="galeria">
+          <img src="./img/img-1.png"
+            alt="foto de uma propaganda do jt home studio com serviços como edição de áudio e vídeo, criação de cartão digital e panfleto digital em um telefone.">
+          <img src="./img/img-2.png"
+            alt="propaganda de uma clínica especializada médica com ícones de whatsapp, ligar, instagram, facebbok, localização e o dedo indicando a escolha do icone do instagram.">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contato" id="contato">
+      <h2>Contato</h2>
+      <div class="colunas">
+
+        <div class="coluna">
+          <div class="texto">Entre em contato</div>
+          <p>Possui interesse em algum dos meus serviços ou deseja falar comigo?</p>
+          <div class="icones">
+            <div class="linhas">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="titulo">Nome:</div>
+                <div class="subtitulo">Jorge Tinta</div>
+              </div>
+            </div>
+
+            <div class="linhas">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="titulo">Endereço:</div>
+                <div class="subtitulo">Itaboraí - Rio de Janeiro</div>
+              </div>
+            </div>
+
+            <div class="linhas">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="titulo">Email:</div>
+                <div class="subtitulo">jorgeotinta@hotmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="coluna">
+          <div class="texto">Mensagem:</div>
+          <form>
+            <div class="campos">
+              <div class="flex gap-4">
+                <input id="nome" type="text" placeholder="Nome" required>
+                <input id="email" type="email" placeholder="Email" required>
+              </div>
+
+              <input id="assunto" type="text" placeholder="Assunto" required>
+
+              <textarea id="mensagem" cols="30" rows="10" placeholder="Envie sua mensagem..." required></textarea>
+
+              <button type="submit" id="enviar-formulario">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Criado por <a href="https://babiport.herokuapp.com/" target="_blank">Bárbara Oliveira</a> | <span
+          class="far fa-copyright"></span> 2022 - Todos os
+        direito
+        reservados.
+    </footer>
+
+</body>
+
+</html>
