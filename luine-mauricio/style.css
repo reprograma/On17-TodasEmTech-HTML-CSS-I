@@ -7,33 +7,70 @@ body{
     overflow-wrap: break-word;
 }
 
-h1,h2{
-    font-weight: 900px;
-    color: black;
-}
-.header_div_1{
-    width: 100%;
-    margin: 0 auto;
+
+.header_div_cabeçalho_1{
+    text-align: center;
+    font-size: 100px;
     
 }
 
+.header_div_cabeçalho_2{
+    text-align: center;
+    color: rgb(145, 139, 142);
+    font-size: 50px;
+    
+}
+
+.header_div_cabeçalho_3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.header_div_cabeçalho_4{
+    text-align: center;
+    font-size: 50px;
+}
+
+.header_div_cabeçalho_5{
+    text-align: center;
+    font-size: 50px;
+}
+
+.header_div_cabeçalho_6{
+    text-align: center;
+    font-size: 50px;
+}
 .header_div_2{
     display: block;
     flex-direction: column;
     justify-content: center;
-    height: 100vh important;
+    height: 100vh :important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+            
 }
+
+   
 main{
     display: block;
     background-color: white;
 }
 .main_div_section_1{
-    width: 100%;
-    max-width: 760px;
+    display: block;
+    width: 1500px;
+    height: auto;
     margin: 0 auto;
     padding: 0 20px;
     margin-bottom: 40px;
+    font-size: 25px;
+    font-style: italic;
     background-color: #ece7d5;
+    text-align: center;
 
 }
 .main_div_section_1: :last-child{
@@ -41,31 +78,50 @@ main{
 }
 
 .main_div_section_2{
-    width: 100%;
-    max-width: 760px;
+    display: block;
+    width: 1500px;
+    height: auto;
     margin: 0 auto;
     padding: 0 20px;
     margin-bottom: 40px;
+    font-size: 25px;
+    font-style: initial;
     background-color: #ece7d5;
+    text-align: center;
 }
 
 .main_div_section_3{
-    width: 100%;
-    max-width: 760px;
+    display: block;
+    width: 1500px;
+    height: auto;
     margin: 0 auto;
     padding: 0 20px;
     margin-bottom: 40px;
+    font-size: 25px;
+    font-style: initial;
+    background-color: #ece7d5;
+    text-align: center;
 }
 .main_div_section_4{
-    width: 100%;
-    max-width: 760px;
+    display: block;
+    width: 1500px;
+    height: auto;
     margin: 0 auto;
     padding: 0 20px;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
+    font-size: 25px;
+    font-style: initial;
+    background-color: #ece7d5;
+    text-align: center;
 }
-
-.footer_div_1{
     
+.main_div_img{
+    background-size: 10px;
+}
+.footer_div_1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 
