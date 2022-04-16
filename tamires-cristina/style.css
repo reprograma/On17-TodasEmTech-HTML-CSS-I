@@ -3,8 +3,13 @@
 * {
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Akshar", arial;
+}
+
+body,
+html {
+  height: 100%;
 }
 
 .div_container {
