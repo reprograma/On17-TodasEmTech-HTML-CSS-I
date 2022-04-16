@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Righteous&display=swap');
 
-
 * {
     box-sizing: border-box;
 }
-/*GLOBAIS*/
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -13,39 +12,78 @@ body {
 h1{
     font-family: 'Righteous', cursive;
     font-size: 48px;
+    margin: 0;
 }
 html {
     font-size: 16px;
     scroll-behavior: smooth;
 }
- a {
-     text-decoration: none;
+
+a {
+    text-decoration: none;
 }
 
-.cabecalho{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 18px;
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width:100%;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+nav: after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+
+.nav-container li a: hover {
+    color: #3381f3;
+    
 }
 
 
-section {
-    max-width: 1080px;
-    margin: auto;
- }
-/*BANNER*/ 
 
 
-.banner_conteudo {
-    background-image: url(../On17-TodasEmTech-HTML-CSS-I/IMG/banner1.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-}
+
+
+
+
 
 footer {
     margin: 5rem;
