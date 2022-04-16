@@ -7,16 +7,46 @@ body {
 
 header{
     display: flex;
-    justify-content: center;
+    width: 100%;
 }
 
 .logo h2{
     color: #fff;
     font-size: 30px;
+    margin-left: 50px;
 }
 
 .logo span{
     color: #C1AAAA;
+}
+
+.menu{
+    display: flex;
+    flex-direction: inline;
+}
+
+.menu-list{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 100px;
+    justify-content: right;
+}
+
+.menu-list li{
+    display: inline;
+    padding-left: 25px;
+    text-align: right;
+}
+.menu-list li:hover{
+    color: #f8c0c0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu-list ul{
+    justify-content: right;
 }
 
 .section-1{
@@ -53,6 +83,11 @@ header{
     margin-top: 20px;
     margin-left: 70px;
     border-radius: 5%;
+    filter: blur(2);
+}
+
+.image1 img:hover{
+   
 }
 
 .area-tittle a:hover{
@@ -123,11 +158,90 @@ header{
 
 .area-tittle-2 h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
+}
+
+.area-tittle-2 h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -25px;
+}
+
+.area-tittle-2 a{
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .image2 img{
     width: 420px;
     height: auto;
+    margin-top: 5px;
+    margin-left: 100px;
 }
 
+/* AREA DO FORMULÁRIO */
+
+.area-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.area-form h2{
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.formulario input{
+    margin-top:20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Oswald';
+}
+
+input::placeholder{
+    color: #000;
+    text-transform: uppercase;
+}
+
+input[type="submit"]{
+    background-color: #C1AAAA;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    height: 55px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 100px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+
+.social img{
+    width: 48px;
+    margin-left: 15px;
+}
