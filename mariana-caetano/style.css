@@ -13,13 +13,141 @@ html{
     height: 100%;
 }
 
+body {
+    background-image: url(./images/background-one.png);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
 .header-nav {
     background-color: black;
+    opacity: 70%;
+    padding-top: 2%;
+    display: block;
 }
 .spotify-logo {
     width: 132px;
-    height: 41px;
+    margin-right: 55%;
 }
+
+.nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2%;
+}
+
+.nav-links ul li{
+    list-style-type: none;
+    padding-right: 14px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+
+  .nav-links ul li a:hover {
+      color: #1ED760;
+  }
+
+  main {
+    background-image: url(./images/background-circles.svg);
+    background-position: left;
+    background-size:auto;
+  }
+
+  #main-one {
+      height: 450px;
+      padding: 50px 0px 0px 80px;
+      color: white;
+  }
+
+  #main-one p {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 32px;
+  }
+
+  #main-one h1 {
+    font-size: 65px;
+    text-justify: auto;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+#main-one button {
+    background-color: black;
+    border-radius: 500px;
+    padding: 20px;
+}
+
+#main-one button a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#main-one button:hover {
+    transform: scale(1.1);
+}
+
+#main-one h2 {
+    font-size: 25px;
+    text-justify: auto;
+    line-height: 36px;
+    margin-bottom: 32px;
+}
+
+#main-two {
+    height: 400px;
+    padding: 50px 0px 0px 80px;
+    background-color: white;
+    opacity: 85%;
+    color: black;
+    background-image: url(./images/background-circles.svg);
+   background-size: 90%;
+}
+
+#main-two p{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 32px;
+}
+
+#main-two h2{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+#main-two h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 32px;
+}
+
+#main-two button {
+    
+    background-color: black;
+    border-radius: 500px;
+    padding: 20px;
+}
+
+#main-two button a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#main-two button:hover {
+    transform: scale(1.1);
+}
+
 
 footer {
     background-color: black;
@@ -29,5 +157,4 @@ footer {
     background-color: white;
     width: 24px;
     width: 24px;
-    border-radius: 50%;
 }
