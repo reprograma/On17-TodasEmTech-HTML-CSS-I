@@ -1,0 +1,116 @@
+/*Resetando o documento*/
+* {
+    margin: 0; /*espaço de "fora"*/
+    padding: 0; /*espaço de "dentro"*/
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background:hsl(0, 0%, 93%); /*cor do corpo da pagina*/
+}
+
+.banner-site{
+    background-image: url(imagens01/comendobolo.jpg);
+    background-size: 85% 100%;
+    height: 300px;
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.titulo-site{
+    display: block;
+    float: left;
+    padding: 10% 10%;
+    color: hsl(300, 88%, 16%);
+    text-shadow: 5px 5px 0px hsl(0, 0%, 93%);
+}
+
+
+.menu{
+    text-transform: uppercase; 
+    background-color: rgba(46, 40, 40, 0.151); 
+    color: #b11f80;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+nav ul {
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul li {
+	list-style: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.home-inicio{
+    padding-top: 20px;
+    font-size: 20px;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.historia{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.sabor{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.tipo-bolo{
+    padding-top: 20px;
+
+}
+
+.contato{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 280px; 
+    color: hsl(40, 92%, 10%);
+    background-color: rgba(46, 40, 40, 0.151);
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+.footer__div-p-a{
+    color: rgb(164, 93, 206);
+}
+.footer__div-p-a:hover {
+    font-weight: bold;
+    font-style: italic;
+}
