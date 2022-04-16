@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: #f2ede4;
+  width: 100%;
+}
+#header {
+  padding: 10px 25px;
+}
+
+.header-container {
+  display: flex;
+  margin: 20px 0 0 700px;
+}
+
+.header-text {
+  padding: 0 15px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #46154c;
+}
+
+.line {
+  margin: 30px 0;
+  border: 0;
+  border-top: 1.5px solid #46154c;
+}
+
+.container-profile {
+  display: flex;
+  gap: 200px;
+  padding: 0 50px;
+}
+.image-profile {
+  width: 400px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #46154c;
+}
+
+.p-text {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #46154c;
+}
+
+.text-profile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.aboutme-container {
+  padding: 70px 50px;
+}
+.about-text {
+  font-size: 35px;
+  font-weight: bold;
+  color: #46154c;
+}
+
+.p-aboutme {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+footer {
+  padding: 20px;
+}
+
+.p-footer {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #46154c;
+}
