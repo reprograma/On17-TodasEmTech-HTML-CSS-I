@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: #c1bc2ec6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1f1c1c;
+
+}
+
+
+main {
+    height: 100vh;
+    background-image: url(./imagens/stafford-mongrel-g6bfa7e1ec_1920.jpg);
+    background-size: cover;
+    padding-top: 80px;
+    
+}
+
+h1 {
+    background-size: contain;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.opacity-image{
+    margin-top: 10vh;
+
+}
+
+.button-adote {
+    margin-top: 47vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 70%;
+    text-decoration: none;
+}
+
+.button-adote a {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white
+    
+}
+
+.button-adote :hover {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #c3bd25;
+    border: none;
+    color: #1f1c1c;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.6s;
+    margin: 2px;
+   
+
+}
