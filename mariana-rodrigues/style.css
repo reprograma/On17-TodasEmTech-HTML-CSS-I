@@ -1,0 +1,60 @@
+*body { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: flex;
+}
+
+.nav-ul {
+text-align: right;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 2rem;
+}
+
+.div-h1 {
+  color: black;
+  font-size: 7rem;
+  text-align: center;
+  font-family:'tangerine', serif;
+}
+
+.imagens {
+  background-image: url(../mariana-rodrigues/imagens/sos);
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  color: skyblue;
+  display: flex;
+  justify-content: flex;
+  align-items: flex-start;
+}
+
+.main {
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: justify;
+  color:black;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-h2 {
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: justify;
+  color:black;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.rodape {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  background-color: rgb(230, 230, 250);
+  padding: 1rem;
+}
