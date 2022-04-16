@@ -51,12 +51,6 @@ body {
       color: #1ED760;
   }
 
-  main {
-    background-image: url(./images/background-circles.svg);
-    background-position: left;
-    background-size:auto;
-  }
-
   #main-one {
       height: 450px;
       padding: 50px 0px 0px 80px;
@@ -106,8 +100,10 @@ body {
     background-color: white;
     opacity: 85%;
     color: black;
-    background-image: url(./images/background-circles.svg);
-   background-size: 90%;
+    background-image: url(./images/Spotify_Icon_RGB_Green.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position:right;
 }
 
 #main-two p{
@@ -151,10 +147,61 @@ body {
 
 footer {
     background-color: black;
+    padding: 40px 0 50px;
+    display: block;
+}
+
+.logo-footer {
+    margin: 0 0 0 85px;
+    width: 132px;
+}
+
+h4 {
+    color: #919496;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.footer-links {
+    display: flex;
+    margin-left: 25%;
+
+}
+
+.footer-links ul li{
+    list-style-type: none;
+    margin-right: 14px;
+    padding-right: 25px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .footer-links ul li a:hover {
+      color: #1ED760;
+  }
+
+  .social-media ul {
+    display: flex;
+    justify-content:flex-end;
+    margin-left: 250px;
+}
+
+.social-media ul li{
+    list-style-type: none;
 }
 
 .media-icons {
-    background-color: white;
-    width: 24px;
-    width: 24px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.media-icons:hover {
+    background-color: #fff;
 }
