@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Fahkwang:wght@300&family=Neuton:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Neuton', serif;
+}
+
+ul {
+    position: relative;
+    background: #8c1a22;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    color: white;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    display: block;
+}
+
+ul li a:hover {
+    color: gray;
+}
+
+ul ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+    background: #aa0000;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.caixa-banner {
+    background: linear-gradient(to top, transparent 82%, #8c1a22 100%), url(./img/banner-bg.png) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 26px;
+    color: #000000;
+    line-height: 26px;
+    text-shadow: 2px 2px #ffffffa1;
+    margin-left: 25px;
+}
+
+h2 {
+    font-weight: 100;
+    font-family: 'Babylonica', cursive;
+    margin-left: 140px;
+    font-size: 60px;
+    padding: 10px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    line-height: 26px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: #000000;
+
+}
+
+.nome-yemanja {
+    background-color: #2d90b7b7;
+    padding: 0;
+    color: white;
+}
+
+.nome-nana {
+    background-color: #9940a3b7;
+    padding: 0;
+    color: white;
+}
+
+.nome-oxum {
+    background-color: #f3c033b7;
+    padding: 0;
+    color: white;
+}
+
+.nome-oya {
+    background-color: #df0000b7;
+    padding: 0;
+    color: white;
+}
+
+.caixa-yemanja {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: #2d90b725;
+}
+
+.caixa-nana {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: #9940a325;
+}
+
+.caixa-oxum {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: #f3c03325;
+}
+
+.caixa-oya {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: #df000025;
+}
+
+.ladoA {
+    width: 40%;
+    padding: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.ladoB {
+    width: 35%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    line-height: 20px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.p1 {
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+    color: #000000;
+    margin-left: 50px;
+}
+
+.p2 {
+    font-family: 'Babylonica', cursive;
+    font-weight: 500;
+    font-size: 140px;
+    color: #000000;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.imgYemanja {
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
+
+.imgNana {
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
+
+.imgOxum {
+    max-height: 590px;
+    width: auto;
+    height: auto;
+}
+
+.imgOya {
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
+
+.modal {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.89);
+    opacity: 0;
+    max-height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 45%;
+    padding: 20px;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.fechar {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.pModal {
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 26px;
+    padding: 5px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #8c1a22;
+}
+
+.pFooter {
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+}
