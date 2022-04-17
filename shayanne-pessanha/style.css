@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-navbar > h1 {
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 35px;
+    font-style: italic;
+
+}
+
+.container-navbar > h3 {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    font-weight: 100;
+    margin: 40px;
+
+}
+
+/* .container-header > div > h1 {
+    font-weight: 100;
+    color: rgb(0, 0, 114);
+    max-width: 50%;
+} */
+
+.container-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-articles > h3{
+    font-weight: 100;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    padding: 50px;
+    font-size: 35px;
+}
+
+.container-articles > button{
+    font-weight: 100;
+    width: 15%;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+    margin: 50px;
+    background-color: transparent;
+}
+
+.container-header {
+    background-image: url(/shayanne-pessanha/img/sp-background.jpg);
+    /* background-color: rgb(136, 136, 136); */
+    background-position: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.container-header > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-header > div > img {
+    align-self: flex-start;
+    height: 100px;
+}
+
+.container-articles > section {
+    display: flex;
+    gap: 20px;
+    padding: 10px 50px;
+    justify-content: center;
+}
+
+.container-articles > section > article > h5 {
+    font-weight: 200;
+
+}
+
+.container-articles > section > article > h4 {
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(0, 0, 114);
+
+}
+
+.container-articles > section > article > img {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(136, 136, 136);
+    height: 80px;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+footer > h6 {
+    font-weight: 200;
+    font-size: medium;
+    /* padding: 40px; */
+    color: white;
+}
