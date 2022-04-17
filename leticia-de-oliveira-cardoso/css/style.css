@@ -1,0 +1,284 @@
+* { 
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: grey;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0);
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 4vw 2vh 65vw;
+}
+
+
+.main_div-firstPage {
+    background-color: #9800df;
+    height: 100vh;
+    padding-top: 12vh;
+    padding-left: 4vw;
+}
+
+    .main_div-firstPage > h2 {
+        color: #45006d;
+    }
+
+.main_div-secondPage {
+    background-color: #45006d;
+    height: 100vh;
+    padding-top: 12vh;
+    padding-left: 4vw;
+}
+
+    .main_div-secondPage > h2 {
+        color: #9800df;
+    }
+
+    .main_div-secondPage > h3 {
+        color: #9800df;
+        padding-top: 45vh;
+        padding-right: 40vw;
+    }
+
+.main_div-thirdPage {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: "l r";
+}
+
+    .main_div-thirdPage > .main_div-left {
+        grid-area: l;
+        background-image: url(./img/perfil.jpg);
+        background-size: 80vh;
+    }
+
+    .main_div-thirdPage > .main_div-left > h1 {
+        color: #9800df;
+        padding-top: 78vh;
+        padding-left: 4vw;
+    }
+
+
+    .main_div-thirdPage > .main_div-right {
+        grid-area: r;
+        background-color: #fafafa;
+    }
+    
+    .main_div-thirdPage > .main_div-right > ul {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 18vh 18vh 18vh 18vh;
+        padding-top: 12vh;
+        padding-left: 6vw;
+        padding-right: 4vw;
+    }
+
+
+.main_div-fourthPage{
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: "l r";
+}
+
+    .main_div-fourthPage > .main_div-left {
+        grid-area: l;
+        background-color: #9800df;
+
+    }
+
+        .main_div-fourthPage > .main_div-left > h1 {
+            color:#45006d;
+            padding-top: 28vh;
+            padding-left: 4vw;
+        }
+
+        .main_div-fourthPage > .main_div-left > h2 {
+            color: #45006d;
+            padding-top: 12vh;
+            padding-left: 4vw;
+        }
+
+        .main_div-fourthPage > .main_div-left > p {
+            color: #fafafa;
+            padding-top: 6vh;
+            padding-left: 4vw;
+        }
+    
+
+    .main_div-fourthPage > .main_div-right {
+        grid-area: r;
+        background-color: #fafafa;
+    }
+
+        .main_div-fourthPage > .main_div-right > h2 {
+            color: #45006d;
+            padding-top: 12vh;
+            padding-left: 4vw;
+        }
+
+        .main_div-fourthPage > .main_div-right > h4 {
+            color: #9800df;
+            padding-top: 6vh;
+            padding-left: 4vw;
+        }
+
+        .main_div-fourthPage > .main_div-right > p {
+            color: #45006d;
+            padding-top: 1vh;
+            padding-left: 4vw;
+        }
+
+
+.main_div-fifthPage {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: "l r";
+    background-color: #45006d;
+}
+
+.main_div-fifthPage > .main_div-left {
+    grid-area: l;
+}
+
+    .main_div-fifthPage-github {
+        height: 40vh;
+        padding-top: 14vh;
+        padding-left: 7vw;
+        padding-bottom: 6vh;
+    }
+
+    .main_div-fifthPage > .main_div-left > h3 {
+        color: #9800df;
+        padding-left: 5vw;
+    }
+
+    .main_div-fifthPage > .main_div-left > h1 {
+        padding-top: 10vh;
+        padding-left: 4vw;
+    }
+
+.main_div-fifthPage > .main_div-right {
+    grid-area: r;
+}
+
+    .main_div-fifthPage-eserfn {
+        height: 40vh;
+        padding-top: 14vh;
+        padding-left: 14vw;
+        padding-bottom: 6vh;
+    }
+
+    .main_div-fifthPage > .main_div-right > h3 {
+        color: #9800df;
+        padding-left: 10vw;
+    }
+
+    .main_div-fifthPage > .main_div-right > p {
+        color: #fafafa;
+        padding-top: 4vh;
+        padding-left: 10vw;
+        padding-right: 8vw;
+    }
+
+
+.main_div-sixthPage {
+    background-color: #9800df;
+    height: 100vh;
+    padding-top: 14vh;
+    padding-left: 4vw;
+}
+
+
+    .main_div-sixthPage > h2 {
+        color: #45006d;
+        padding-bottom: 16vh;
+    }
+
+    .main_div-sixthPage > h3 {
+        color: #fafafa;
+    }
+
+    .main_div-sixthPage-contact {
+        padding-top: 18vh;
+        color: #45006d;
+    }
+
+
+footer {
+    background-color: #fafafa;
+    height: 8vh;
+
+}
+
+    footer > h4 {
+        padding-left: 20vw;
+        padding-top:1vw;
+        color: #9800df;
+    }
+
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 5rem;
+    color: #fafafa;
+}
+
+h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 1.3rem;
+    color: #d3fd2a
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #45006d;
+}
+
+ul {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #45006d;
+}
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #45006d;
+}
