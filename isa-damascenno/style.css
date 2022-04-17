@@ -1,0 +1,83 @@
+body{
+    background-color: yellow;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: end;
+    
+}
+
+.menu-site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px; 
+}
+
+.menu-imagem{
+    height: 500px;
+}
+
+.menu-principal {
+    display:flex;
+    gap:32px;
+}
+
+.menu-item{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 0, 97)
+    font-size: 18px;
+    
+}
+
+.titulo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.subtitulo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+   *{
+       margin: 0;
+       border: 0; 
+       text-decoration: none; 
+       padding: 0; 
+       box-sizing: border-box;
+
+   }
+
+   html{
+        scroll-behavior: smooth;
+        front-family: Poppins, sans-serif;
+        width: 100%;
+        height: 100%;
+   }
+
+   .conteudo-img{
+       height: 300px;
+   }
+
+   .botao{
+       background-color: blueviolet;
+       width: 180px;
+       height: 60px;
+       border: none;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 24px;
+       font-weight: 400;
+       border-radius: 20px;]
+       display: flex;
+       
+              
+   }
+
+   .conteudo2{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap:24px; 
+
+   }
