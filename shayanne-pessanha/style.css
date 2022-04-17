@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-.container-navbar > h3{
+.container-navbar > h3 {
     display: flex;
     justify-content: right;
     gap: 20px;
@@ -12,7 +12,9 @@ body {
 
 }
 
-
+.container-header > div > h1 {
+    font-weight: 200;
+}
 
 .container-header {
     background-color: rgb(136, 136, 136);
@@ -25,10 +27,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.container-header > div > h1 {
-    
 }
 
 .container-header > div > img {
