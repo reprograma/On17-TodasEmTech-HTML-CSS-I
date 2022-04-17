@@ -86,7 +86,7 @@ header .navbar {
 }
 
 .inicio p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   margin-top: 8px;
 }
@@ -104,7 +104,7 @@ header .navbar {
 .sobre h2,
 .servicos h2,
 .contato h2 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   padding: 40px;
   text-align: center;
@@ -114,11 +114,12 @@ header .navbar {
 .sobre img {
   max-width: 250px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid var(--primary-color);
+  margin: 20px 0;
 }
 
 .sobre p {
-  font-size: 18px;
+  font-size: 16px;
   width: 70%;
   margin-left: 15%;
   padding: 20px;
@@ -133,7 +134,7 @@ header .navbar {
 .servicos .servicos-galeria {
   display: flex;
   justify-content: space-around;
-  margin: 40px 0;
+  margin: 60px 0;
 }
 
 .servicos .services {
@@ -144,7 +145,7 @@ header .navbar {
   text-align: left;
   background-size: 35px;
   padding: 3px 0 3px 50px;
-  margin-top: 60px;;
+  margin-top: 60px;
 }
 
 .servicos li::before {
@@ -155,7 +156,7 @@ header .navbar {
 
 .services li {
   padding: 3px 0;
-  color:white
+  color: white;
 }
 
 .servicos .galeria {
@@ -163,12 +164,12 @@ header .navbar {
 }
 
 .servicos .galeria img {
-  max-height: 300px;
+  max-height: 280px;
   border-radius: 15px;
   border: 2px solid white;
 }
 
-.contato{
+.contato {
   padding-bottom: 40px;
 }
 
@@ -182,12 +183,13 @@ header .navbar {
 
 .contato .texto {
   font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 8px;
+  font-size: 18px;
+  margin-bottom: 12px;
 }
 
 .contato p {
   margin: 20px 0 40px 0;
+  font-size: 15px;
 }
 
 .contato .titulo {
@@ -203,7 +205,7 @@ header .navbar {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 16px;
+  margin-top: 18px;
 }
 
 .info {
@@ -230,14 +232,14 @@ textarea {
   width: 100%;
   border: 1px solid lightgrey;
   border-radius: 5px;
-  padding: 8px;
-  margin: 4px 0;
-  font-size: 15px;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 16px;
 }
 
 .contato form button {
   padding: 8px 32px;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   background: var(--secondary-color);
   border: 2px solid var(--secondary-color);
@@ -251,7 +253,7 @@ textarea {
 
 footer {
   background: var(--primary-color);
-  padding: 15px;
+  padding: 10px;
   color: var(--secondary-color);
   text-align: center;
 }
