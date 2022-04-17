@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container-navbar > h3{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    font-weight: 100;
+
+}
+
+
+
+.container-header {
+    background-color: rgb(136, 136, 136);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-header > div > h1 {
+    
+}
+
+.container-header > div > img {
+    align-self: flex-start;
+    height: 100px;
+}
