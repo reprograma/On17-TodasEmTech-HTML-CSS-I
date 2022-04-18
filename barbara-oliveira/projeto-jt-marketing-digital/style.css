@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&display=swap");
+
+:root {
+  --primary-color: #03001d;
+  --secondary-color: #ff0000;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: var(--primary-color);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: var(--secondary-color);
+}
+
+header img {
+  max-height: 4rem;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu-item {
+  color: var(--secondary-color);
+  margin: 1.5rem;
+}
+
+.navbar .menu-item:hover {
+  color: white;
+}
+
+.inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--primary-color);
+  height: 100vh;
+  color: var(--secondary-color);
+}
+
+.inicio .coluna-esquerda {
+  width: 45%;
+}
+
+.inicio .coluna-direita {
+  width: 25%;
+}
+
+.inicio .coluna-direita img {
+  max-width: 16rem;
+}
+
+.inicio h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.inicio p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.sobre {
+  padding: 4rem;
+}
+
+.sobre,
+.contato {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.sobre h2,
+.servicos h2,
+.contato h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--secondary-color);
+  margin: 2rem;
+}
+
+.sobre img {
+  max-width: 18rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  margin: 2rem;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.servicos {
+  background: var(--primary-color);
+  padding: 4rem 0;
+}
+
+.servicos .services-galeria {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.servicos .services {
+  width: 40%;
+}
+
+.servicos ul {
+  text-align: left;
+  padding: 6rem 0;
+}
+
+.servicos li::before {
+  content: "★";
+  color: var(--secondary-color);
+  margin-right: 0.5rem;
+}
+
+.services li {
+  color: white;
+  padding: 0.3rem 0 0.3rem 3rem;
+}
+
+.servicos .galeria {
+  width: 45%;
+}
+
+.servicos .galeria img {
+  max-height: 16rem;
+  border-radius: 1rem;
+  border: 2px solid white;
+  margin: 0.2rem;
+}
+
+.contato .colunas {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 1.5rem 0;
+}
+
+.contato .colunas .contato-coluna1 {
+  width: 45%;
+  padding-left: 4rem;
+}
+
+.contato .texto {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.contato .paragrafo-texto {
+  padding: 1rem 0;
+}
+
+.contato p {
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+.contato .info {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.contato .fas {
+  color: var(--secondary-color);
+  margin-right: 1rem;
+}
+
+.contato .titulo {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.contato .colunas .contato-coluna2 {
+  width: 45%;
+  padding-right: 5rem;
+}
+
+.contato .campos {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+textarea {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.5rem;
+}
+
+form button:hover {
+  color: var(--secondary-color);
+  background: none;
+}
+
+footer {
+  background: var(--primary-color);
+  padding: 1rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+footer span a {
+  color: white;
+  background: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
