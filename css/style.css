@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    list-style: none;
+     text-decoration: none;
+}
+body{
+    font-size: 12px;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    position:fixed;
+    z-index: 5;
+    background-color: #552222;
+    width: 90vw;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    gap:10%;
+    align-items: center;
+    justify-content: flex-end;
+    padding:0 5%;
+}
+.navbar a {
+    color:aliceblue;
+}
+.navbar > ul{
+    position: absolute;
+    left:10%;
+    
+}
+.container{
+    padding:10vh 0;
+    position:relative;
+    /* background:red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+ }
+ .item{
+     width:50%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+ .caixa-banner{
+    background-image: url(Portólio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color:black;     
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    text-align: center;
+ }
+ 
+ .título1{
+    font-size: 2rem ;
+    text-shadow: 2px 2px black;
+ }
+ 
+ .subtítulo1{
+    font-size: 28px;
+    text-shadow: 2px 2px black;
+ 
+ }
+ 
+ .link-sobre{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #552222;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+ }
+ 
+ .link-cv{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    /* background-color: #552222; */
+    padding: 8px 20px;
+    border-radius: 50%;
+}
+
+.caixa-sobre{
+    display: flex;
+    /* justify-content: space-around; */
+    font-size: 18px;
+    /* width:70%; */
+ }
+ 
+ .nome{
+    font-weight: bold;
+ }
+ 
+ .lado1{
+    width: 35%;
+ }
+ 
+ .margin-texto{
+    margin-bottom: 40px;
+ }
+ 
+ .lado2{
+    width: 35%;
+ }
+ 
+ h3{
+    font-size: 25px;
+ }
+ 
+ ul{
+    line-height: 1.8;
+ }
+ 
+ .titulo-sobre{
+    margin-left: 100px;
+    font-size: 35px;
+    color: #413e3e;
+ }
+ 
+ .caixa-links{
+   margin-top: 100px;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+ }
+ 
+ .imagem{
+    width: 100%;
+ }
+ 
+ .diva{
+    width: 30%;
+ }
+ 
+ .links{
+    background-color: #552222;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+ .icone{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+ }
+ 
+ 
+ @media(max-width: 710px){
+    .caixa-sobre{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+ 
+    .lado1{
+       width: 80%;
+       text-align: justify;
+    }
+ 
+    .lado2{
+       width: 80%;
+    }
+ 
+    .titulo-sobre{
+       margin: 20px;
+       text-align: center;
+       font-size: 30px;
+    }
+ 
+    .links{
+       margin-top: 10px;
+       width: 250px;
+       height: 250px;
+       font-size: 20px;
+    }
+ 
+    .icone{
+       margin-top: 40px;
+    }
+ }
