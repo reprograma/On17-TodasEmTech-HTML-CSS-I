@@ -1,0 +1,123 @@
+:root{
+    --text-font: 'Varela Round', sans-serif;
+    }
+    
+    body{
+        background-color: rgb(23, 23, 54);
+        color: white;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #titleContainer{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logoImage{
+        width: 80px;
+        height: auto;
+        margin-right: -90px;
+    }
+    
+
+    li{
+        display: inline-block;
+        margin: 20px;
+    }
+    
+    a{
+        color: white;
+    }
+    
+    a:hover{
+        color: rgb(33, 27, 121);
+        transition: 0.3s all;
+    }
+    
+    #acesse-a-sua-unidade-btn{
+        border: 2px solid rgb(33, 27, 121);
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    #acesse-a-sua-unidade-btn:hover{
+        background-color: rgb(33, 27, 121);
+        color: white;
+    }
+    
+    #titleText{
+        font-weight: 200;
+        font-size: 140%;
+        margin-top: 0%;
+    }
+    
+    main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    }
+
+    .caixa-banner{
+        background-image: url(../imagens/1.jpg);
+        background-size: auto;
+        background-position: center;
+        width: 1250px;
+        height: 85vh;
+        text-align: left;
+    }
+    
+    h2{
+        color: black;
+        font: var(--text-font);
+        font-size: 56px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    p{
+        color: black;
+        font-size: 20px;
+        line-height: 20px;
+        max-width: 500px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    form [type=submit]{
+        height: 50px;
+        width: 50%;
+        background-color: rgb(33, 27, 121);
+        color: white;
+        font-weight: bold;
+    }
+    
+    form [type=submit]:hover{
+        cursor: pointer;
+    }
+    
+    input{
+        margin-top: 20px;
+        height: 20px;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+    }
+
+    footer{
+        text-align: center;
+    }
