@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: block;
+    background-image: url("./Imagens/Sailor\ Moon\ Background.png");
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.div-img{
+    position: row;
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    position:absolute;
+    height: 90px;
+    flex-direction: row;
+}
+
+.header_nav-a {
+    margin: 20px;
+    padding: 20px;
+    color:palevioletred; font-weight:bolder; font-size: 18px;
+}
+
+.header_nav-a:hover {
+    color: gold;
+    font-weight: bold;
+}
+
+.header_form {
+    display:inline-flex;
+    justify-content:right;
+    align-items: center;
+    width: 99%;
+    position:absolute;
+    top: 8px;
+    right: 16px;
+    height: 90px;
+    width: 190px;
+    border: 0px;
+}
+
+main{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main_section{
+    font-size: 16px;
+}
+
+.main_section-h2 {
+    color: palevioletred;
+    text-align: center;
+}
+
+.main_section-ul{
+    font-size: 16px;
+}
+
+.main_div-div{
+    display: flex;
+    flex-direction: row-reverse;
+    line-height: 30px;
+}
+
+.destaque-info{
+    color: palevioletred;
+    font-weight: bolder;
+}
+
+.personagens {
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+.personagem {
+    color:gold;
+}
+
+.Usagi-Tsukino {
+    width: 220px;
+    height: 270px;
+}
+
+.Lunaa {
+    width: 300px;
+    height: 150px;
+}
+
+.Chibiusa-Tsukino {
+    width: 300px;
+    height: 350px;
+}
+
+.Mamoru-Chiba {
+    width: 220px;
+    height: 270px;
+}
+
+.Hotaru-Tamoe {
+    width: 340px;
+    height: 340px;
+}
+
+.Hakura-Tenou {
+    width: 220px;
+    height: 270px;
+}
+
+.Rei-Rino {
+    width: 450px;
+    height: 270px;
+}
+
+.Minako-Aino {
+    width: 400px;
+    height: 320px;
+}
+
+.Makoto-Kino {
+    width: 200px;
+    height: 260px;
+}
+
+.main_div-div-abertura {
+    line-height: 30px;
+    justify-content: space-between;
+    display: flex;
+    justify-items: center;
+}
+
+
+.assista {
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translate(290%)
+}
+
+.assista:hover {    
+    background-color: gold;
+    border: 3px solid palevioletred;
+}
+
+.icone-crunchyroll {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 2px; 
+    color: gold;
+    font-weight: bolder;
+    background-color: palevioletred;
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+.footer_div-p-a{
+    color: purple;
+}
+.footer_div-p-a:hover {
+    font-weight: bolder;
+    color: white;
+}
