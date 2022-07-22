@@ -1,0 +1,256 @@
+body {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: #845555;
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+.logo h2{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.logo span{
+    color: #C1AAAA;
+}
+
+.menu{
+    display: flex;
+    flex-direction: inline;
+}
+
+.menu-list{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 100px;
+    justify-content: right;
+}
+
+.menu-list li{
+    display: inline;
+    padding-left: 25px;
+    text-align: right;
+}
+.menu-list li:hover{
+    color: #f8c0c0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu-list ul{
+    justify-content: right;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.area-tittle h3{
+    color: #fff;
+    font-weight: normal;
+}
+
+.area-tittle h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -10px;
+}
+
+.area-tittle a{
+    display: inline-block;
+    background-color: #763632;
+    padding: 15px 60px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.image1 img{
+    width: 640px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 5%;
+}
+
+.area-tittle a:hover{
+    background-color: #C1AAAA;
+    transition: .7s;
+}
+
+/*A AREA DE CARD */
+
+.section-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+}
+
+.section-cards h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    background-color: #763632;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.card:hover{
+    background-color: #fff;
+    transition: 1s all;
+}
+
+.card img{
+    width: 200px;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+
+/* SEÇÃO DE IMAGENS */
+
+.section-3{
+    background-color: #E1AAAA;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.area-tittle-2 h1{
+    color: #fff;
+    font-size: 35px;
+}
+
+.area-tittle-2 h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+.area-tittle-2 a{
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.area-tittle-2 a:hover{
+    background-color: #763632;
+    transition: .7s;
+}
+
+.image2 img{
+    width: 420px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 5%;
+}
+
+/* AREA DO FORMULÁRIO */
+
+.area-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.area-form h2{
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.formulario input{
+    margin-top:20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Oswald';
+}
+
+input::placeholder{
+    color: #000;
+    text-transform: uppercase;
+}
+
+input[type="submit"]{
+    background-color: #C1AAAA;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    height: 55px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #763632;
+    transition: .7s;
+}
+
+footer{
+    margin-top: 100px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-direction: inline;
+}
+
+
+.social img{
+    width: 48px;
+    margin-left: 15px;
+}
